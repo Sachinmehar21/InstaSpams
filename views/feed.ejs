@@ -66,7 +66,7 @@
         </div>
         <i data-id='<%= post._id%>' class="save <%= post.saved.includes(post.user._id) ? 'text-white-500 ri-bookmark-fill':'ri-bookmark-line'%>"></i>
       </div>
-      <h3 class="likeCount px-4 mt-2 text-lg leading-none tracking-tight font-bold"><%= post.likes.length%> likes</h3>
+      <h3 class="likeCount px-4 mt-2 text-lg leading-none tracking-tight font-bold"><%= post.likes.length%> Likes</h3>
       <h2 class="text-white font-light text-lg mt-2"><span class="font-semibold pl-4 pr-2"><%= post.user.username%></span><%= post.caption%></h2>
     </div>
     <%})%>

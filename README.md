@@ -3,7 +3,7 @@
 
 Instaspams is a responsive innovative Instagram-like application designed for managing and interacting with spam accounts. This project features robust user authentication, dynamic image posting, comprehensive profile management, and rich social interactions. Leveraging Multer for efficient image uploads, Passport.js for secure authentication, and Express sessions for maintaining user state, Instaspams provides a complete full-stack web development experience. This repository is perfect for developers looking to enhance their skills in building scalable and interactive web applications.
 
-- **hosted on**: https://to-do-app-react-sachinmehar21s-projects.vercel.app/
+- **hosted on**: https://instaspams.onrender.com
 
 # Table of Content 
  

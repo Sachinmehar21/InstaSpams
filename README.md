@@ -3,6 +3,8 @@
 
 Instaspams is a responsive innovative Instagram-like application designed for managing and interacting with spam accounts. This project features robust user authentication, dynamic image posting, comprehensive profile management, and rich social interactions. Leveraging Multer for efficient image uploads, Passport.js for secure authentication, and Express sessions for maintaining user state, Instaspams provides a complete full-stack web development experience. This repository is perfect for developers looking to enhance their skills in building scalable and interactive web applications.
 
+- **hosted on**: https://to-do-app-react-sachinmehar21s-projects.vercel.app/
+
 # Table of Content 
  
  • Installation
@@ -11,7 +13,8 @@ Instaspams is a responsive innovative Instagram-like application designed for ma
  • Contributing
  • Usage
  • Contact
-## Installation
+ 
+# Installation
 
 1. Clone the repo
 
@@ -29,8 +32,7 @@ Instaspams is a responsive innovative Instagram-like application designed for ma
   npm install
 ```
 
-
-## Usage
+# Usage
 
 1. Start the development server:
 ``` 
@@ -38,7 +40,7 @@ npx nodemon
 ```
 2. Open your browser and navigate to http://localhost:3000 to see the app in action.
 
-## Features
+# Features
 
 - User Authentication: Integrated Passport.js for secure user authentication, enabling both signup and login functionality.
 - Image Posting: Utilizes Multer for seamless file uploads, allowing users to create posts and stories.
@@ -47,7 +49,7 @@ npx nodemon
 
 Overall, it includes most features a social platform requires.
 
-## Contributing
+# Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.\
 
@@ -56,7 +58,8 @@ Contributions are what make the open-source community such an amazing place to l
 3. Commit your Changes (git commit -m 'Add some AmazingFeature')
 4. Push to the Branch (git push origin feature/AmazingFeature)
 5. Open a Pull Request
-## MIT License
+
+# MIT License
 
 Copyright (c) 2024 Sachin Mehar
 
@@ -78,8 +81,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
-## Contact
+# Contact
 
 Sachin Mehar - Sachinmehar21@gmail.com
 

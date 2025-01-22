@@ -23,7 +23,7 @@
   <div class="story px-3 flex gap-3 overflow-auto mt-5 pb-3 border-b border-grey">
     <a href="/story/<%=user._id%>/0">
       <div id='' class="circle flex-shrink-0">
-        <div class="gradient w-[25vw] h-[25vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+        <div class="gradient w-[25vw] h-[25vw]   rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
           <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
             <img class="w-full h-full object-cover" src="/images/upload/<%= user.pic%>" alt="">
           </div>
@@ -34,7 +34,7 @@
       <%if(story.user != user){%>
     <a href="/story/<%=story.user._id%>/0">
       <div class="circle flex-shrink-0">
-        <div class="gradient w-[18vw] h-[18vw] bg-sky-100 rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
+        <div class="gradient w-[18vw] h-[18vw]   rounded-full bg-gradient-to-r from-purple-700 to-orange-500 flex items-center justify-center">
           <div class="inner w-[92%] h-[92%] rounded-full overflow-hidden">
             <img class="w-full h-full object-cover" src="/images/upload/<%= story.user.pic%>" alt="">
           </div>
@@ -48,13 +48,13 @@
   <div class="posts mb-20">
     <div class="post relative mt-10 w-full min-h-[50vh]">
       <div class="title px-4 flex items-center gap-2">
-        <div class="w-[8vw] h-[8vw] bg-sky-100 rounded-full overflow-hidden">
+        <div class="w-[8vw] h-[8vw]   rounded-full overflow-hidden">
           <img class="post-img w-full h-full object-cover" src="/images/upload/<%= post.user.pic%>" alt="">
         </div>
         <h4 class="text-2xl font-bold"><%= post.user.username%></h4>
         <h6 class="text-xs opacity-25 transform translate-y-1"><%=post.date.toLocaleString()%></h6>
       </div>
-      <div class="w-full h-96 mt-4 bg-sky-100 overflow-hidden">
+      <div class="w-full h-96 mt-4   overflow-hidden">
         <img class="img w-full h-full object-contain" src="/images/upload/<%= post.pic %>" alt="">
 
       </div>

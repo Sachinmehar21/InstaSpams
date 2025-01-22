@@ -3,8 +3,8 @@
     <div class="flex flex-col items-center gap-5 px-4">
       <img class="w-1/2" src="/images/logo.png" alt="">
       <form class="w-full" action="/login" method="post">
-        <input class="px-3 mt-2 py-2 border-2 border-zinc-800 rounded-md block w-full bg-zinc-900" type="text" placeholder="Spam Account Name" name="Username">
-        <input class="px-3 mt-2 py-2 border-2 border-zinc-800 rounded-md block w-full bg-zinc-900" type="password" placeholder="Password" name="Password">
+        <input class="px-3 mt-2 py-2 border-2 border-zinc-800 rounded-md block w-full bg-zinc-900" type="text" placeholder="Spam Account Name" name="username">
+        <input class="px-3 mt-2 py-2 border-2 border-zinc-800 rounded-md block w-full bg-zinc-900" type="password" placeholder="Password" name="password">
         <%if(error.length>0){%>
           <p class="my-3 fs-2 text-lg text-center">*<%= error%></p>
         <%}%>

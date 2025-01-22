@@ -127,12 +127,8 @@ router.get('/post/like/:postId', isLoggedIn, async function (req, res) {
 router.get('/post/save/:a', isLoggedIn, async function (req, res) {
   const post = await postModel.findOne({ _id: req.params.a })
   const user = await userModel.findOne({ username: req.session.passport.user })
-  if (!post.saved.includes(user._id)) {
-    post.saved.push(user._id)
-  }
-  else {
-    post.saved.splice(user._id, 1)
-  }
+  user.posts.push(post._id)
+  post.users.push(user._id)
   await post.save();
   res.json(post)
 })
